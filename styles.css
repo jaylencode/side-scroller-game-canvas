@@ -1,0 +1,36 @@
+/*-------Importing----------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+
+/*-----Global Reset-------*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*------Stying Body-----------*/
+body {
+  background: black;
+}
+
+/*-------Stying Canvas---------*/
+#canvas1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid #eb5e28;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/*-------Styling Images----------*/
+#player {
+    display: none;
+}
+#background {
+    display: none;
+}
+#enemy {
+    display: none;
+}
